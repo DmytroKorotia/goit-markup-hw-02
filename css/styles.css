@@ -81,6 +81,10 @@ body {
     color: #FFFFFF;
     cursor: pointer;
 }
+.btn:hover,
+.btn:focus {
+    background-color: #404BBF;
+}
 .subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -116,9 +120,6 @@ body {
     letter-spacing: 0.04em;
     color: var(--logo-first-cl);
     background-color: var(--btn-bgd);
+    cursor: pointer;
 
-}
-.btn:hover,
-.btn:focus {
-    background-color:#404BBF ;
 }

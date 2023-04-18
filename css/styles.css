@@ -70,9 +70,7 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-.btn,
-.btn:hover,
-.btn:focus {
+.btn {
     background-color: #4D5AE5;
     font-family: var(--primary-font);
     font-weight: 500;
@@ -97,9 +95,13 @@ body {
     text-transform: capitalize;
     color: var(--logo-second-cl);
 }
-.team {
+.team-section {
     background-color: #F4F4FD;
 }
 .team-list {
     background-color: #fff;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #4D5AE5;
 }

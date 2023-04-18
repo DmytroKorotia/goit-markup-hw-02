@@ -5,6 +5,7 @@
     --logo-first-cl: #4D5AE5;
     --logo-second-cl:#2E2F42;
     --accent-txt-cl:#404bbf;
+    --btn-bgd: #F4F4FD
 }
 body {
     font-family: var(--primary-font);
@@ -70,10 +71,7 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-.btn, 
-.btn:hover,
-.btn:focus {
-    background-color: #404BBF;
+.btn {
     background-color: #4D5AE5;
     font-family: var(--primary-font);
     font-weight: 500;
@@ -101,7 +99,7 @@ body {
 .team-section {
     background-color: #F4F4FD;
 }
-.team-list {
+.team-item {
     background-color: #fff;
 }
 .footer {
@@ -109,4 +107,18 @@ body {
 }
 .logo-footer {
     color: #f4f4fd;
+}
+.btn-prtf {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--logo-first-cl);
+    background-color: var(--btn-bgd);
+
+}
+.btn:hover,
+.btn:focus {
+    background-color:#404BBF ;
 }

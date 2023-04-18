@@ -121,5 +121,9 @@ body {
     color: var(--logo-first-cl);
     background-color: var(--btn-bgd);
     cursor: pointer;
-
+}
+.btn-prtf:hover,
+.btn-prtf:focus {
+    background-color: #404BBF;
+    color: #fff;
 }
